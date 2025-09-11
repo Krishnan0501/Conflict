@@ -9,7 +9,10 @@ public class ConsistentHashingDemo {
     private static final Logger logger = Logger.getLogger(ConsistentHashingDemo.class.getName());
 
     public static void main(String[] args) {
-    	System.out.println("jxfkbdbjkcsfjkdcfbdcdcfbykdcfbyjbykdcfdfjkns");
+    	System.out.println("jxfkbdbjkcsfjkdcfbdcdcfbykdcfsbyjbykdcfdfjkns");
+    	
+    	System.out.println("jxfkbdbjkcsfjkdcfbdcdcfbykdcfsbyjbykdcfdfjkns");
+
         ConsistentHashing ch = new ConsistentHashing(100);
 
         // Add nodes to the system
