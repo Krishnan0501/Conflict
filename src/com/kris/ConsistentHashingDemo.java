@@ -9,6 +9,7 @@ public class ConsistentHashingDemo {
     private static final Logger logger = Logger.getLogger(ConsistentHashingDemo.class.getName());
 
     public static void main(String[] args) {
+    	System.out.println("jxfkbdbjkcsfjkdcfbdcdcfbykdcfbyjbykdcfdfjkns");
         ConsistentHashing ch = new ConsistentHashing(100);
 
         // Add nodes to the system
@@ -39,5 +40,7 @@ public class ConsistentHashingDemo {
         for (Map.Entry<String, Integer> entry : distribution.entrySet()) {
             System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
+        
+        
     }
 }
